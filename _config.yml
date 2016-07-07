@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "elotgamu's site!"
+#email: elotgamu@gmail.com
+description: "elotgamu's site presentation hosted in github, jekyll powered page!"
+keywords: "elotgamu,blog,github,github-pages"
+baseurl: "/" # the subpath of your site, e.g. /blog
+#url: "http://elotgamu.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000"
+
+# author
+author:
+  name: 'elotgamu'
+  first_name: 'Eleazar'
+  last_name: 'Gaitán'
+  email: 'elotgamu@gmail.com'
+  facebook_username: 'elotgamu94'
+  twitter_username: 'elotgamu'
+  github_username: 'elotgamu'
+  head_img: 'static/img/landing/elotgamu.jpg'
+
+#twitter_username: elotgamu
+#github_username:  elotgamu
+
+# landing page
+landing:
+  home: 'Home'
+  about: 'Acerca de'
+  career: 'Carrera'
+  skills: 'Habilidades'
+  #projects: 'Proyectos'
+  blog: 'Blog'
+  contact: 'Contacto'
+
+# blog index
+index:
+  home: 'Home'
+  python: 'Python'
+  linux: 'Linux'
+  html: 'HTML'
+  database: 'Database'
+  #life: 'Life'
+
+# comment
+disqus:
+  name: elotgamugithubio
+  public_key: fOGpCeS6ypTeeVMe9OICieuTRm38tbgRLGpLzT6bRXsnFB3OnJtqs481Ip8bzOFA
+
+# Build settings
+encoding: "utf-8"
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
