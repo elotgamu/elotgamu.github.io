@@ -41,7 +41,7 @@ landing:
 
 # blog index
 index:
-  home: 'Home'
+  home: 'Inicio'
   python: 'Python'
   linux: 'Linux'
   html: 'HTML'
