@@ -11,8 +11,8 @@ title: "elotgamu's site!"
 description: "elotgamu's site presentation hosted in github, jekyll powered page!"
 keywords: "elotgamu,blog,github,github-pages"
 baseurl: "/" # the subpath of your site, e.g. /blog
-#url: "http://elotgamu.github.io" # the base hostname & protocol for your site
-url: "http://localhost:4000"
+url: "http://elotgamu.github.io" # the base hostname & protocol for your site
+#url: "http://localhost:4000"
 
 # author
 author:
@@ -23,6 +23,7 @@ author:
   facebook_username: 'elotgamu94'
   twitter_username: 'elotgamu'
   github_username: 'elotgamu'
+  gplus_id: '103796706863157043625'
   head_img: 'static/img/landing/elotgamu.jpg'
 
 #twitter_username: elotgamu
@@ -30,11 +31,11 @@ author:
 
 # landing page
 landing:
-  home: 'Home'
+  home: 'Inicio'
   about: 'Acerca de'
-  career: 'Carrera'
+  career: 'Progreso'
   skills: 'Habilidades'
-  #projects: 'Proyectos'
+  projects: 'Proyectos'
   blog: 'Blog'
   contact: 'Contacto'
 

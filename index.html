@@ -17,13 +17,38 @@ permalink: /
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                        <li><a class="page-scroll" href="#page-top"><span data-i18n="nav.home">{{ site.landing.home }}</span></a></li>
-                        <li><a class="page-scroll" href="#about_me"><span data-i18n="nav.about_me">{{ site.landing.about }}</span></a></li>
-                        <li><a class="page-scroll" href="#career"><span data-i18n="nav.career">{{ site.landing.career }}</span></a></li>
-                        <li><a class="page-scroll" href="#skills"><span data-i18n="nav.skills">{{ site.landing.skills }}</span></a></li>
+                        <li>
+                            <a class="page-scroll" href="#page-top">
+                                <span data-i18n="nav.home">{{ site.landing.home }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about_me">
+                                <span data-i18n="nav.about_me">{{ site.landing.about }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#career">
+                                <span data-i18n="nav.career">{{ site.landing.career }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#skills">
+                                <span data-i18n="nav.skills">{{ site.landing.skills }}</span>
+                            </a>
+                        </li>
                         <!--<li><a class="page-scroll" href="#project"><span data-i18n="nav.projects">{{ site.landing.projects }}</span></a></li> -->
-                        <li><a class="page-scroll" href="#blog"><span data-i18n="nav.blog">{{ site.landing.blog }}</span></a></li>
-                        <li><a class="page-scroll" href="#contact"><span data-i18n="nav.contact">{{ site.landing.contact }}</span></a></li>
+                        <li>
+                            <a class="page-scroll" href="#blog">
+                                <span data-i18n="nav.blog">{{ site.landing.blog }}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">
+                                <span data-i18n="nav.contact">{{ site.landing.contact }}</span>
+                            </a>
+                        </li>
+                        <!-- selectores de idiomas -->
                         <li>
                             <a class="btn btn-sm set_en"><img src="{{"static/img/flags/United-States.png"| prepend: site.baseurl }}" height="16px" width="16px"></a>
                         </li>
@@ -46,7 +71,7 @@ permalink: /
             <div class="container">
                 <div class="carousel-caption">
                 </div>
-                <div class="carousel-image wow zoomIn">
+                <div class="carousel-image">
                     <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
                 </div>
             </div>
@@ -78,7 +103,7 @@ permalink: /
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+                <h1><span data-i18n="about_me.about_me">Acerca de mi</span></h1>
                 <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
             </div>
         </div>
@@ -110,7 +135,7 @@ permalink: /
             <div class="col-sm-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
-                        <i class="icon-angular"></i>
+                        <i class="icon-laravel"></i>
                     </div>
                 </div>
             </div>
@@ -118,7 +143,7 @@ permalink: /
             <div class="col-sm-2 wow fadeInRight">
                 <div class="team-member">
                     <div class="vote-icon">
-                        <i class="icon-docker"></i>
+                        <i class="icon-archlinux"></i>
                     </div>
                 </div>
             </div>
@@ -135,12 +160,12 @@ permalink: /
     </div>
 </section>
 
-<!-- <section id="career" class="timeline features gray-section">
+<section id="career" class="timeline features gray-section">
     <div class="container" id="i18_career">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="career.my_career">My Career</span></h1>
+                <h1><span data-i18n="career.my_career">Mi progreso</span></h1>
             </div>
         </div>
         <div class="row features-block">
@@ -153,44 +178,53 @@ permalink: /
                             <i class="fa fa-plus-square"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.nextcode">Nextcode</span></h2>
-                            <p><span data-i18n="career.nextcode_des">Now I am in Nextcode and develop website with Python code for genetic analysis. </span></p>
-                            <span class="vertical-date"><span data-i18n="career.nextcode_date"> Apr. 2016 </span><br/> <small><span data-i18n="career.nextcode_job">Python Developer</span></small> </span>
+                            <h2><span data-i18n="career.uni">UNI - Managua</span></h2>
+                            <p>
+                                <span data-i18n="career.uni_des">
+                                    Inicio mis estudios de Ingeniería en Computación
+                                </span>
+                            </p>
+                            <span class="vertical-date"><span data-i18n="career.uni_date">2012 </span><br/>
+                                <small>
+                                    <span data-i18n="career.uni_job">Estudios universitarios</span>
+                                </small>
+                            </span>
                         </div>
                     </div>
 
 
                     <div class="vertical-timeline-block">
                         <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-gamepad"></i>
+                            <i class="fa fa-keyboard-o"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.netease">Netease Game</span></h2>
-                            <p><span data-i18n="career.netease_des">In Netease game, I learned game service system and use Python code for ops. </span></p>
-                            <span class="vertical-date"><span data-i18n="career.netease_date"> Jun. 2015 </span><br/> <small><span data-i18n="career.netease_job">Dev Ops</span></small> </span>
+                            <h2><span data-i18n="career.ineter">INETER</span></h2>
+                            <p><span data-i18n="career.ineter_des">En INETER, aprendí a administrar y configurar servidores en su mayoría GNU/LINUX; así como conocimientos técnicos de redes LAN, servicios y manejo de protocolos de red. Además mejoré mis habilidades desarrollando scripts para automatización de tareas remotas y locales. Todo lo anterior en ambientes tanto físicos como virtualizados.
+                            Aquí conocí a una de las mayores obra de arte en el mundo de la informática... IPTABLES.</span></p>
+                            <span class="vertical-date"><span data-i18n="career.ineter_date"> Enero 2012 </span><br/> <small><span data-i18n="career.ineter_job">Administación de servidores y redes LAN</span></small> </span>
                         </div>
                     </div>
 
 
                     <div class="vertical-timeline-block">
                         <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-cloud"></i>
+                            <i class="fa fa-search"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.ucloud">Ucloud</span></h2>
-                            <p><span data-i18n="career.ucloud_des">In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.</span></p>
-                            <span class="vertical-date"><span data-i18n="career.ucloud_date"> Sep. 2013 </span><br/> <small><span data-i18n="career.ucloud_job">Dev Ops</span></small> </span>
+                            <h2><span data-i18n="career.mentoring">Ineter</span></h2>
+                            <p><span data-i18n="career.mentoring_des">Luego de año y medio, regresé a INETER... Esta vez para dedicarme a explorar posibilidades de usar hardware embebido como Raspberrypi y TS7260 para usos específicos en telemetría. Implementé algunos scripts en python... </span></p>
+                            <span class="vertical-date"><span data-i18n="career.mentoring_date"> Agosto 2015 </span><br/> <small><span data-i18n="career.mentoring_job">Investigación</span></small> </span>
                         </div>
                     </div>
 
                     <div class="vertical-timeline-block">
                         <div class="vertical-timeline-icon navy-bg">
-                            <i class="fa fa-book"></i>
+                            <i class="fa fa-laptop"></i>
                         </div>
                         <div class="vertical-timeline-content">
-                            <h2><span data-i18n="career.college">Graduation</span></h2>
-                            <p><span data-i18n="career.college_des">At July 2013,I graduated from college and started my IT technology tour.</span></p>
-                            <span class="vertical-date"><span data-i18n="career.college_date"> Jul. 2013 </span><br/> <small><span data-i18n="career.college_job">Student</span></small> </span>
+                            <h2><span data-i18n="career.laravel">Laravel Backend</span></h2>
+                            <p><span data-i18n="career.laravel_des">Como proyecto de la clase de ingeniería de software, nos toca (a mi grupo de trabajo y a mí), realizar un proyecto en Laravel 5.1, este es mi primer acercamiento como backend en un proyecto, tomo la parte de migraciones, modelos y parte de la administración del server de producción</span></p>
+                            <span class="vertical-date"><span data-i18n="career.laravel_date">Agosto 2015</span><br/> <small><span data-i18n="career.laravel_job">Backend y Administración del Server</span></small> </span>
                         </div>
                     </div>
 
@@ -200,32 +234,34 @@ permalink: /
         </div>
     </div>
 
-</section> -->
+</section>
 
 <section id="skills" class="team features">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center" id="i18_skills">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+                <h1><span data-i18n="skills.my_skills">Mis habilidades</span></h1>
             </div>
         </div>
         <div class="row features-block">
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
               <p>Python</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
-                    <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                        <span class="sr-only">85% Complete (success)</span>
+                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
+                        <span class="sr-only">70% Complete (success)</span>
                     </div>
                 </div>
             </div>
           </div>
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>HTML</p>
+              <p>HTML5</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -235,9 +271,10 @@ permalink: /
                 </div>
             </div>
           </div>
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
-              <p>Linux/Shell</p>
+              <p>GNU/Linux - Shell</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
@@ -247,17 +284,58 @@ permalink: /
                 </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+              <p>PHP</p>
+            </div>
+            <div class="col-lg-7 features-text wow fadeInLeft">
+                <div class="progress progress-bar-default">
+                    <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar">
+                        <span class="sr-only">40% Complete (success)</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+
           <div class="row">
             <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
               <p>Laravel</p>
             </div>
             <div class="col-lg-7 features-text wow fadeInLeft">
                 <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
-                        <span class="sr-only">50% Complete (success)</span>
+                    <div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar">
+                        <span class="sr-only">40% Complete (success)</span>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+              <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                <p>Django</p>
+              </div>
+              <div class="col-lg-7 features-text wow fadeInLeft">
+                  <div class="progress progress-bar-default">
+                      <div style="width: 45%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="45" role="progressbar" class="progress-bar">
+                          <span class="sr-only">45% Complete (success)</span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-1 col-lg-offset-2 features-text wow fadeInLeft">
+                <p>LAMP Stack</p>
+              </div>
+              <div class="col-lg-7 features-text wow fadeInLeft">
+                  <div class="progress progress-bar-default">
+                      <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
+                          <span class="sr-only">70% Complete (success)</span>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
           </div>
         </div>
     </div>
@@ -363,7 +441,9 @@ permalink: /
         <div class="row">
             <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
                 <br><br><br><br>
-                <a class="btn btn-lg btn-default btn-rounded btn-outline" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
+                <a class="btn btn-lg btn-default btn-rounded btn-outline" href="/blog/">
+                    <span data-i18n="blog.my_blog">Mi Blog</span>
+                </a>
                 <br><br><br><br>
             </div>
         </div>
@@ -376,24 +456,29 @@ permalink: /
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
                 <div class="navy-line"></div>
-                <h1><span data-i18n="contact.contact_me">Contact Me</span></h1>
+                <h1><span data-i18n="contact.contact_me">Contáctame</span></h1>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 text-center fadeInLeft">
-                <a href="mailto:{{ site.author.email }}" class="btn btn-primary"><span data-i18n="contact.email">Send me mail</span></a>
-                <p class="m-t-sm"><span data-i18n="contact.follow">
-                    Or through the following ways
-                </span></p>
+                <a href="mailto:{{ site.author.email }}" class="btn btn-primary">
+                    <span data-i18n="contact.email">Enviame un correo</span></a>
+                <p class="m-t-sm"><span data-i18n="contact.follow">O interactuemos en</span></p>
+
+                <!-- social links and icons -->
                 <ul class="list-inline social-icon">
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
+                    <li>
+                        <a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a>
                     </li>
-                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
+                    <li>
+                        <a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
                     </li>
-                    <li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
+                    <li>
+                        <a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a>
                     </li>
-                    <!-- <li><a href="#" target="blank"><i class="fa fa-linkedin"></i></a>
-                    </li> -->
+                    <li>
+                        <a href="https://plus.google.com/{{ site.author.gplus_id }}" target="blank"><i class="fa fa-google-plus-official"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -497,23 +582,6 @@ permalink: /
 
                 // $('.set_en').addClass('active');
                 // $('.set_cn').removeClass('active');
-            });
-        });
-
-        $('.set_cn').on('click', function (){
-            i18n.setLng('cn', function(){
-                $('.i18container').i18n();
-                $('#i18_title').i18n();
-                $('#i18_navbar').i18n();
-                $('#i18_about_me').i18n();
-                $('#i18_skills').i18n();
-                $('#i18_projects').i18n();
-                $('#i18_career').i18n();
-                $('#i18_blog').i18n();
-                $('#i18_contact').i18n();
-
-                // $('.set_cn').addClass('active');
-                // $('.set_en').removeClass('active');
             });
         });
 
