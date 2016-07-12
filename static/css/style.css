@@ -3085,6 +3085,23 @@ ul.unstyled, ol.unstyled {
     border-top: 1px solid #e7eaec;
     margin-left: 220px
 }
+
+/*just override font size and alignment for blog footer*/
+
+.footer-blog {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*just override color for social icons a tags elements*/
+
+.footer-blog>ul>li>a {
+    color: gray
+}
+
+footer>.container>.row>.col-md-4>p {
+    text-align: center
+}
 body.mini-navbar .footer.fixed, body.body-small.mini-navbar .footer.fixed {
     margin: 0 0 0 70px
 }

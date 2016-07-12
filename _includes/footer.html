@@ -1,3 +1,45 @@
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <p>2016 {{ site.title }}</p>
+            </div>
+
+            <div class="col-md-4 footer-blog">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://github.com/{{ site.author.github_username }}" target="blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/{{ site.author.gplus_id }}" target="blank">
+                            <i class="fa fa-google-plus-official"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <p>
+                    Hecho con <i class="fa fa-heart"></i> y  mucho <i class="fa fa-coffee"> por mí.</i>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
   <!-- Baidu analytics -->
   {% if site.ba %}
     <script>
@@ -5,7 +47,7 @@
         (function() {
           var hm = document.createElement("script");
           hm.src = "//hm.baidu.com/hm.js?{{ site.ba.uuid }}";
-          var s = document.getElementsByTagName("script")[0]; 
+          var s = document.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(hm, s);
         })();
     </script>
@@ -39,7 +81,7 @@
       $.ajax({
         type: 'GET',
         url: "https://disqus.com/api/3.0/threads/set.jsonp",
-        data: { api_key: disqusPublicKey, forum : disqusShortName, thread : urlArray }, 
+        data: { api_key: disqusPublicKey, forum : disqusShortName, thread : urlArray },
         cache: false,
         dataType: "jsonp",
         success: function (result) {
