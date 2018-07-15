@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.desc %}
-    <meta content="{{ page.desc }}" name="description">
+    <meta name="description" content="{{ page.desc }}">
   {% endif %}
   {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}">
@@ -30,7 +30,8 @@
   <link rel="stylesheet" href="{{ "search/css/cb-search.css" | prepend: site.baseurl }}">
 
   <!-- Custom styles for this template -->
-  <link href="{{"static/css/style.css"| prepend: site.baseurl }}" rel="stylesheet">
+  <!-- <link href="{{"static/css/style.css"| prepend: site.baseurl }}" rel="stylesheet"> -->
+  <link rel="stylesheet" href="{{"css/main.css" | preprend: site.baseurl }}">
   <link href="{{"static/css/pygments.css"| prepend: site.baseurl }}" rel="stylesheet">
 
   <!-- Scripts -->
@@ -55,18 +56,18 @@
   <script src="{{"bower_components/PACE/pace.min.js"| prepend: site.baseurl }}"></script>
   <script src="{{"bower_components/wow/dist/wow.min.js"| prepend: site.baseurl }}"></script>
   <!-- Custom and plugin javascript -->
-  <script src="{{"static/js/inspinia.js"| prepend: site.baseurl }}"></script>
+  <!-- <script src="{{"static/js/inspinia.js"| prepend: site.baseurl }}"></script> -->
 
   <!-- Rickshaw -->
-  <script src="{{"bower_components/rickshaw/vendor/d3.v3.js"| prepend: site.baseurl }}"></script>
-  <script src="{{"bower_components/rickshaw/rickshaw.min.js"| prepend: site.baseurl }}"></script>
+  <!-- <script src="{{"bower_components/rickshaw/vendor/d3.v3.js"| prepend: site.baseurl }}"></script> -->
+  <!-- <script src="{{"bower_components/rickshaw/rickshaw.min.js"| prepend: site.baseurl }}"></script> -->
 
 
   <!-- jPages -->
   <script src="{{"static/js/jPages.js" | prepend: site.baseurl}}"></script>
   <script src="{{"static/js/js.js" | prepend: site.baseurl}}"></script>
   <script id="dsq-count-scr" src="//jalpc.disqus.com/count.js" async></script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
         $(function(){
           /* initiate the plugin */
           $("div.pag-holder").jPages({
@@ -78,5 +79,5 @@
               endRange     : 1
           });
       });
-  </script>
+  </script> -->
 </head>

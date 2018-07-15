@@ -41,7 +41,15 @@
     "laravel": "Laravel Backend",
     "laravel_des": "Como proyecto de la clase de ingeniería de software, nos toca (a mi grupo de trabajo y a mí), realizar un proyecto en Laravel 5.1, este es mi primer acercamiento como backend en un proyecto, tomo la parte de migraciones, modelos y parte de la administración del server de producción",
     "laravel_date": "Agosto 2015",
-    "laravel_job": "Backend y Administración del Server"
+    "laravel_job": "Backend y Administración del Server",
+    "accedo": "Web Designer",
+    "accedo_desc": "Trabajando como Web Designer, maqueté muchos sitios usando HTML5, CSS3 y Bootstrap3",
+    "accedo_date": "Agosto 2016",
+    "accedo_job": "Frontend Developer",
+    "efficientix": "Desarrollador Junior en Netsuite para Efficientix",
+    "efficientix_des": "Inicio trabajando remotamente para Efficientix como desarrollador Frontend aplicando VUEJS a sus proyectos, poco tiempo después colaboro como backend en ciertos proyectos",
+    "efficientix_date": "Marzo 2018",
+    "efficientix_job": "Desarrollador Netsuite Junior"
   },
   "blog":{
     "my_blog": "Mi Blog"

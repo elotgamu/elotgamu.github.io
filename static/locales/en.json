@@ -41,7 +41,15 @@
     "laravel": "Laravel Backend",
     "laravel_des": "As college proyect for a class, my workgroup started developing a Laravel aplication.This is my first try as backend in a project, I did migrations, models and some server administration in the hosting Azure VM",
     "laravel_date": "August 2015",
-    "laravel_job": "PHP Backend and server admin"
+    "laravel_job": "PHP Backend and server admin",
+    "accedo": "Web Designer",
+    "accedo_des": "Working as Web Designer, I made a lot of sites's layout using HTML5, CSS3 y Bootstrap3",
+    "accedo_date": "August 2016",
+    "accedo_job": "Frontend Developer",
+    "efficientix": "Junior Netsuite Developer at Efficientix",
+    "efficientix_des": "I started working remotely as Frontend Developer with VueJS, later I started collaborating with backend roles in some new proyects",
+    "efficientix_date": "March 2018",
+    "efficientix_job": "Junior Netsuite Developer"
   },
   "blog":{
     "my_blog": "My Blog"
