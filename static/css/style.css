@@ -6159,7 +6159,8 @@ body.landing-page {
 .landing-page .social-icon a {
     background: #1ab394;
     color: #fff;
-    padding: 4px 8px;
+    /*padding: 4px 8px;*/
+    padding: 6px;
     height: 28px;
     width: 28px;
     display: block;
@@ -6352,7 +6353,8 @@ body.landing-page {
         padding: 25px 10px 15px 10px
     }
     .landing-page .navbar-nav>li>a {
-        padding: 20px 10px
+        /*padding: 20px 10px*/
+        padding: 10px;
     }
     .landing-page .navbar .navbar-brand {
         margin-top: 6px;
@@ -7418,5 +7420,16 @@ body.md-skin {
     }
     #page-wrapper {
         margin: 0
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .landing-page .navbar-wrapper .navbar {
+        padding: 0;
+    }
+    .navbar-right {
+        /*float: none !important;*/
+        margin-right: 0;
+        margin-top: 10px;
     }
 }

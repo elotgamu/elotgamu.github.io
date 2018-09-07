@@ -13,7 +13,7 @@
   },
   "about_me":{
     "about_me": "Acerca de mi",
-    "des": "Soy un estudiante de 5to de ingenieria en computacion. Experiencia laboral en el area de administracion de servidores y redes LAN; especialmente en ambiente GNU/Linux. Tratando de aprender desarrollo web en plataformas OpenSource especialmente en Django y Laravel."
+    "des": "Soy un estudiante de 5to de ingenieria en computacion. Experiencia laboral en el area de administracion de servidores y redes LAN; especialmente en ambiente GNU/Linux, desarrollo web frontend y tratando de aprender desarrollo web en plataformas OpenSource especialmente en Django, Laravel, VueJS, etc."
   },
   "skills":{
     "my_skills": "Mis habilidades"
